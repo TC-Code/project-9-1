@@ -6,4 +6,7 @@ function getTriangleArea(a, h){
 		return (a * h/2);
     }
 }
-console.log(getTriangleArea(5, 9))
+var triangle1Area = getTriangleArea(0, 15);
+var triangle2Area = getTriangleArea(5, 15);
+var triangle3Area = getTriangleArea(6, 12);
+
